@@ -1,0 +1,299 @@
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+[hidden] {
+  display: none; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+a:focus {
+  outline: thin dotted; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+h1 {
+  font-size: 2em; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+b, strong {
+  font-weight: 700; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+dfn {
+  font-style: italic; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+small {
+  font-size: 80%; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+sup {
+  top: -0.5em; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+img {
+  border: 0; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+/* line 1, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+button, input {
+  line-height: normal; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+body, figure {
+  margin: 0; }
+
+/* line 2, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 4, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 6, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* TYPOGRAPHY */
+/* line 9, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+h1, h2, h3, h4, h5, h6, p, label {
+  font-family: 'Roboto', Arial, sans-serif; }
+
+/* line 13, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+h1 {
+  font-size: 48px;
+  margin: 30px 0;
+  text-transform: uppercase;
+  text-shadow: 1px 1px rgba(30, 30, 30, 0.3); }
+
+/* line 20, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+h2 {
+  font-size: 36px;
+  margin: 15px;
+  text-align: left;
+  border-bottom: 3px solid rgba(30, 30, 30, 0.67); }
+
+/* line 27, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+h3 {
+  margin: 0;
+  display: inline; }
+
+/* line 32, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+label, input {
+  font-size: 20px;
+  text-shadow: 1px 1px rgba(30, 30, 30, 0.3); }
+
+/* line 37, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+main {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(245, 245, 245, 0.9);
+  text-align: center; }
+
+/* line 44, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+img {
+  max-width: 100%; }
+
+/*User input section*/
+/* line 49, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.prompt {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: rgba(15, 15, 15, 0.75);
+  background-size: cover;
+  opacity: 0;
+  transition: all 1.5s ease-out; }
+
+/* line 59, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+#ingredient {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(225, 225, 225, 0.8);
+  color: white;
+  margin: 0 14px;
+  text-align: center; }
+
+/* line 68, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.btn-submit {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 65px;
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(225, 225, 225, 0.8);
+  border-radius: 5px;
+  transition: 0.5s; }
+
+/* line 79, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.btn-submit:hover {
+  border: 2px solid white; }
+
+/* line 83, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+#ingredient:active, #ingredient:focus, .btn-submit:active, .btn-submit:focus {
+  outline: none; }
+
+/* line 87, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.landing {
+  opacity: 1; }
+
+/* line 91, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.inputContainer {
+  position: absolute;
+  color: white;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+/* line 100, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+.recipeList {
+  width: 100%;
+  margin: 0;
+  padding: 20px 10px; }
+  /* line 105, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .displayRecipes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative; }
+  /* line 112, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList li {
+    display: block;
+    padding: 10px;
+    margin: 0;
+    width: 16.66%;
+    float: left; }
+  /* line 120, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList li:hover {
+    background: rgba(35, 35, 35, 0.3);
+    transition: 0.5s; }
+  /* line 125, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList a {
+    color: #e1e1ff; }
+  /* line 130, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .mains li {
+    border: 6px solid #e74c3c; }
+  /* line 134, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .sides li {
+    border: 6px solid #e67e22; }
+  /* line 138, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .desserts li {
+    border: 6px solid #32ce74; }
+  /* line 142, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .appetizers li {
+    border: 6px solid #3498db; }
+  /* line 146, C:/Users/winston/Dropbox/Personal/HackerYou W2015/Week 5/WEEK 5 PROJECT/styles/style.scss */
+  .recipeList .snacks li {
+    border: 6px solid #f1c40f; }
+/*# sourceMappingURL=style.css.map */
