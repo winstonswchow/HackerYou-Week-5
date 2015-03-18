@@ -89,8 +89,7 @@ iotdApp.plot = function(givenArray) {
     recipeType = iotdApp.extractCourse(givenArray[i]);
     recipeImage = givenArray[i].smallImageUrls[0].replace(/s90/g, 's250');
     recipeTime = iotdApp.getTime(givenArray[i].totalTimeInSeconds);
-    listAppend += "<li><a target='_blank' href ='http://www.yummly.com/recipe/" + givenArray[i].id + "'><img src='" + recipeImage + "'></a><p>Prep Time: " + recipeTime + "</p></li>";
-    // <h4>" + givenArray[i].recipeName + "</h4> code for when you want to pull/append names
+    listAppend += "<li><a target='_blank' href ='http://www.yummly.com/recipe/" + givenArray[i].id + "'><img src='" + recipeImage + "'><p>Prep Time: " + recipeTime + "</p><h4>" + givenArray[i].recipeName + "</h4></a></li>";
   }
   return listAppend;
 }
@@ -126,7 +125,7 @@ iotdApp.getTime = function (givenSeconds) {
       hours = Math.floor(givenSeconds/3600);
       outputString = hours + " hours";
     }
-    console.log(givenSeconds - hours*3600);
+    // console.log(givenSeconds - hours*3600);
     if (givenSeconds - hours*3600 !== 0) {
       outputString += ", " + Math.floor((givenSeconds - (hours*3600))/60) + " minutes";
     }
