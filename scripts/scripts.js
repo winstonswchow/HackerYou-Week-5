@@ -18,7 +18,8 @@ iotdApp.init = function() {
     e.preventDefault();
     ingredient = $( "#ingredient" ).val();
     iotdApp.getRecipes(ingredient);
-    $(".prompt").removeClass("landing").one("transitionend", function(){
+    $(".prompt").removeClass("display").one("transitionend", function(){
+      $(".recipeList").addClass("display");
     });
   });
 }
