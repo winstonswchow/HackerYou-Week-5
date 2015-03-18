@@ -18,8 +18,10 @@ iotdApp.init = function() {
     e.preventDefault();
     ingredient = $( "#ingredient" ).val();
     iotdApp.getRecipes(ingredient);
-    $(".prompt").removeClass("display").one("transitionend", function(){
+    $(".prompt").removeClass("display").on("transitionend", function(){
       $(".recipeList").addClass("display");
+      $("footer").show();
+      $(".prompt").hide();
     });
   });
 }
@@ -90,7 +92,7 @@ iotdApp.plot = function(givenArray) {
     recipeType = iotdApp.extractCourse(givenArray[i]);
     recipeImage = givenArray[i].smallImageUrls[0].replace(/s90/g, 's250');
     recipeTime = iotdApp.getTime(givenArray[i].totalTimeInSeconds);
-    listAppend += "<li><a target='_blank' href ='http://www.yummly.com/recipe/" + givenArray[i].id + "'><img src='" + recipeImage + "'><p>Prep Time: " + recipeTime + "</p><h4>" + givenArray[i].recipeName + "</h4></a></li>";
+    listAppend += "<li><a target='_blank' href ='http://www.yummly.com/recipe/" + givenArray[i].id + "'><img src='" + recipeImage + "'><p>Time: " + recipeTime + "</p><h4>" + givenArray[i].recipeName + "</h4></a></li>";
   }
   return listAppend;
 }

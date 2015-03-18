@@ -132,7 +132,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box; }
 
 /* TYPOGRAPHY */
-h1, h2, h3, h4, h5, h6, p, label {
+h1, h2, h3, h4, h5, h6, p, a, label {
   font-family: 'Roboto', Arial, sans-serif;
   text-transform: uppercase;
   color: #232323; }
@@ -157,11 +157,17 @@ h4 {
 p {
   margin-top: 10px; }
 
+a {
+  text-decoration: none; }
+
+a:focus {
+  outline: 0; }
+
 label, input {
   font-size: 20px;
   text-shadow: 1px 1px rgba(30, 30, 30, 0.3); }
 
-main {
+main, footer {
   width: 100%;
   margin: 0 auto;
   background: rgba(245, 245, 245, 0.9);
@@ -178,7 +184,7 @@ img {
   background: rgba(15, 15, 15, 0.75);
   background-size: cover;
   opacity: 0;
-  transition: all 1.5s ease-out; }
+  transition: all 2s ease-out; }
   .prompt h1, .prompt label, .prompt input {
     color: whitesmoke; }
 
@@ -199,7 +205,8 @@ img {
   transition: 0.5s; }
 
 .btn-submit:hover {
-  border: 2px solid white; }
+  color: #1e96be;
+  border: 2px solid #1e96be; }
 
 #ingredient:active, #ingredient:focus, .btn-submit:active, .btn-submit:focus {
   outline: none; }
@@ -231,8 +238,10 @@ img {
     min-width: 20%;
     max-width: 20%; }
   .recipeList li:hover {
-    background: rgba(35, 35, 35, 0.3);
+    background: #1e96be;
     transition: 0.5s; }
+    .recipeList li:hover h4, .recipeList li:hover p {
+      color: whitesmoke; }
   .recipeList a {
     color: #232323;
     text-decoration: none; }
@@ -240,14 +249,36 @@ img {
 .display {
   opacity: 1; }
 
+footer {
+  display: none;
+  margin: 0;
+  padding: 0; }
+  footer p {
+    margin: 0;
+    font-weight: 700;
+    text-transform: none; }
+  footer a {
+    color: #1e96be;
+    text-transform: none; }
+  footer a:hover {
+    color: whitesmoke; }
+
 @media (max-width: 960px) {
   .recipeList li {
     min-width: 33.33%;
     max-width: 33.33%; } }
 
+@media (max-width: 767px) {
+  #ingredient {
+    margin-top: 15px; } }
+
+@media (max-width: 640px) {
+  .recipeList li {
+    min-width: 50%;
+    max-width: 50%; } }
+
 @media (max-width: 480px) {
   h2 {
     text-align: center; }
   .recipeList li {
-    min-width: 100%;
-    max-width: 100%; } }
+    min-width: 100%; } }
