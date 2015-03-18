@@ -8,6 +8,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* TYPOGRAPHY */
 h1,h2,h3,h4,h5,h6, p, label {
 	font-family: 'Roboto', Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 h1 {
@@ -108,7 +110,6 @@ img {
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		position: relative;
 	}
 
 	li {
@@ -150,4 +151,18 @@ img {
 	}
 }
 
-// Results
+// Responsive
+
+@media (max-width: 960px) {
+	.recipeList li {
+		min-width: 33.33%;
+		max-width: 33.33%;
+	}
+}
+
+@media (max-width: 480px) {
+	.recipeList li {
+		min-width: 100%;
+		max-width: 100%;
+	}
+}
